@@ -83,6 +83,7 @@ MENU STYLING
 		  	text-decoration: none;
 		  	display: block;
 		  	padding: 5px 2rem;
+			@include single-text-shadow;
 		  }
 		}
 	}
@@ -175,8 +176,8 @@ HEADER STYLING
 ***************/
 
 .header {
-	background-color: seagreen;
-	background-image: url('../img/touring.jpg');
+	background-color: black;
+	background-image: url('../img/enigma.jpg');
 	background-size: cover;
 	background-position: center center;
 	color: white;
@@ -197,6 +198,7 @@ HEADER STYLING
 		font-family: $sans-serif;
 		font-weight: 800;
 		text-transform: uppercase;
+		@include single-text-shadow;
 
 		a {
 			color: white;
